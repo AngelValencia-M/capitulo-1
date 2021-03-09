@@ -84,7 +84,7 @@ else {
     alert("pedro, No te alcanza para ningu helado");
 }
 
-//nuevo usuario
+//nuevo usuario //hello
 //Dinero angel 
 
 if (DineroAngel >= 0.6 && DineroCofla <1){
