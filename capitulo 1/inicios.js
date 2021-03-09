@@ -1,7 +1,7 @@
 let DineroCofla = prompt("cuanto dinero tienes cofla ");
 let DineroRoberto = prompt("cuanto dinero tienes roberto ");
-let DineroPedro= prompt("cuanto dinero tienes pedro ");
-
+let DineroPedro = prompt("cuanto dinero tienes pedro ");
+let DineroAngel = prompt("Cuanto dinero tiene Angel");
 //funcion de cambio de numero
 
 
@@ -78,6 +78,33 @@ else if(DineroPedro >= 1.7 && DineroCofla < 2.9){
 }
 
 else if(DineroPedro >= 2.9){
+    alert("pedro, helado de caca o el bote de mierda");
+}
+else {
+    alert("pedro, No te alcanza para ningu helado");
+}
+
+
+//Dinero angel 
+
+if (DineroAngel >= 0.6 && DineroCofla <1){
+    alert("pedro, comprar helado de agua");
+}
+
+else if(DineroAngel >= 1 && DineroCofla < 1.6){
+    alert("pedro, comprar helado de crema");
+}
+
+else if(DineroAngel >= 1.6 && DineroCofla < 1.7){
+    alert("pedro, comprar helado de churro");
+
+}
+
+else if(DineroAngel >= 1.7 && DineroCofla < 2.9){
+    alert("pedro, comprar helado de cacahuate");
+}
+
+else if(DineroAngel >= 2.9){
     alert("pedro, helado de caca o el bote de mierda");
 }
 else {
